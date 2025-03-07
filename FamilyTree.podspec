@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FamilyTree'
   s.version          = '1.0.0'
-  s.summary          = '这是一个家谱树的可视化项目，使用了 MVVM 架构模式进行开发。主要功能包括树形结构的展示、节点的自定义样式、多配偶信息展示、以及节点的交互操作（点击、长按等）'
+  s.summary          = '家谱树的可视化库，使用了 MVVM 架构模式进行开发'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

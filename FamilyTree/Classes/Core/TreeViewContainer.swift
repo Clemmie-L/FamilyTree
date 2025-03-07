@@ -5,7 +5,7 @@ public class TreeViewContainer<A: TreeViewAdapter>: UIView, UIScrollViewDelegate
     // 滚动视图
     private let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
-        scrollView.backgroundColor = .red
+        scrollView.backgroundColor = .white
         scrollView.showsHorizontalScrollIndicator = true
         scrollView.showsVerticalScrollIndicator = true
         return scrollView
@@ -14,7 +14,7 @@ public class TreeViewContainer<A: TreeViewAdapter>: UIView, UIScrollViewDelegate
     // 内容视图
     public let contentView: UIView = {
         let view = UIView()
-        view.backgroundColor = .yellow
+        view.backgroundColor = .clear
         return view
     }()
     
