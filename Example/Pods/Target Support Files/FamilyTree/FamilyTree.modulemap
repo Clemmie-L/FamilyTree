@@ -1,0 +1,6 @@
+framework module FamilyTree {
+  umbrella header "FamilyTree-umbrella.h"
+
+  export *
+  module * { export * }
+}

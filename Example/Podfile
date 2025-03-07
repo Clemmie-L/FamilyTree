@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FamilyTree_Example' do
+  pod 'FamilyTree', :path => '../'
+
+  target 'FamilyTree_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_FamilyTree_Tests {
+  umbrella header "Pods-FamilyTree_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
