@@ -1,6 +1,7 @@
 import UIKit
 
 public protocol TreeViewAdapter: AnyObject {
+    
     associatedtype T: TreeNodeIdentifiable
     
     // 数据和视图相关
@@ -15,6 +16,7 @@ public protocol TreeViewAdapter: AnyObject {
 }
 
 public extension TreeViewAdapter {
+    
     func configureLineDrawer(_ lineDrawer: TreeLineDrawer) {
         // 默认实现，使用系统默认样式
     }

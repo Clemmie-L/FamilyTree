@@ -1,6 +1,7 @@
 
 public protocol TreeNodeIdentifiable {
     var id: String { get }
+    var name: String { get }
 }
 
 public class TreeNode<T> {

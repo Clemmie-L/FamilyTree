@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FamilyTree: b42043741150200ce4edae4b0b90afa83d8bd81f
+  FamilyTree: c1265af085d18c685f2e4f3fbc9e6c87d4f6a6f1
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
 PODFILE CHECKSUM: b18ec4e0c816e8f9c2d7c5db31d73c04bc82cfa8
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
